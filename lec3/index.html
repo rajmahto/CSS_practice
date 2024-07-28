@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            border: 3px dotted red;
+            margin-left: 10px;
+        }
+        .img2{
+            /* position: relative;
+            top: 100px;
+            left: 100px; */
+            position: absolute;
+            top: 150px;
+        }
+        .img4{
+            position: fixed;
+        }
+        div{
+            border: 2px solid black;
+        }
+        .container{
+            height: 8000px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="lion.jpg" alt="Poster" height="300px" width="300px">
+        <img class="img2" src="lion.jpg" alt="Poster" height="300px" width="300px">
+        <img class="img3" src="lion.jpg" alt="Poster" height="300px" width="300px">
+        <img class="img4" src="lion.jpg" alt="Poster" height="300px" width="300px">
+    </div>
+</body>
+</html>
